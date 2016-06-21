@@ -9,7 +9,7 @@
 
 (function (factory) {
 	if (typeof define === 'function' && define.amd) {
-		define(['jquery', 'jquery-ui'], factory);
+		define(['jquery'], factory);
 	} else {
 		factory(jQuery);
 	}
@@ -887,11 +887,6 @@
 				}
 				else {
 					this.$timeObj.val($.datepicker.formatTime(pickerTimeFormat, this, o) + pickerTimeSuffix);
-				}
-				if (this.$timeObj[0].setSelectionRange) {
-					var sPos = this.$timeObj[0].selectionStart;
-					var ePos = this.$timeObj[0].selectionEnd;
-					this.$timeObj[0].setSelectionRange(sPos, ePos);
 				}
 			}
 
