@@ -1,6 +1,7 @@
 /*
  * jQuery Timepicker Addon
  * By: Trent Richardson [http://trentrichardson.com]
+ * Tweaked by: Charley Bodkin [https://github.com/charlex]
  *
  * Copyright 2013 Trent Richardson
  * You may use this project under MIT license.
